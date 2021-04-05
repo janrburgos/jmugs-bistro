@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Menu page of J' Mugs Bistro, a restaurant located in Brgy. West, Candoni, Negros Occidental."
+    />
+    <title>J' Mugs Bistro Menu</title>
+    <link
+      rel="shortcut icon"
+      href="../img/favicon-logo.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/css-pages/menu.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-items">
+        <div class="logo-group">
+          <a href="../index.html">
+            <img src="../img/logo.png" alt="j' mugs logo" />
+          </a>
+          <h1><a href="../index.html" class="title-link">J' MUGS BISTRO</a></h1>
+        </div>
+        <nav class="header-nav">
+          <div class="nav-btn">
+            <div class="nav-hamburger"></div>
+          </div>
+          <div class="nav-list">
+            <ul>
+              <li>
+                <a href="../index.html"><div>HOME</div></a>
+              </li>
+              <li>
+                <a href="../html/services.html"><div>SERVICES</div></a>
+              </li>
+              <li>
+                <a href="../html/contact.html"
+                  ><div>CONTACT&nbsp;&nbsp;US</div></a
+                >
+              </li>
+              <li id="my-cart-link">
+                <a href="#my-cart"><div>MY&nbsp;&nbsp;CART</div></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="search-bar">
+      <input type="text" name="search" id="search" placeholder="Search" />
+    </div>
+    <div class="menu-container">
+      <main>
+        <div class="main-group">
+          <div class="category-header">
+            <div></div>
+            <span>main</span>
+            <div></div>
+          </div>
+          <div class="card-wrapper"></div>
+        </div>
+        <div class="beverage-group">
+          <div class="category-header">
+            <div></div>
+            <span>beverages</span>
+            <div></div>
+          </div>
+          <div class="card-wrapper"></div>
+        </div>
+        <div class="pizza-group">
+          <div class="category-header">
+            <div></div>
+            <span>pizza</span>
+            <div></div>
+          </div>
+          <div class="card-wrapper"></div>
+        </div>
+      </main>
+      <aside id="my-cart">
+        <div class="cart-header">
+          <div></div>
+          <span>your cart</span>
+          <div></div>
+        </div>
+        <div class="cart-items">
+          <p class="empty-cart">Your cart is empty</p>
+        </div>
+        <div class="total-price">
+          <p>Total Price:</p>
+          <p id="total-price-display"></p>
+        </div>
+        <div class="cart-bottom">
+          <p>Additional Instructions</p>
+          <textarea
+            name="instructions"
+            id="instructions"
+            cols="30"
+            rows="4"
+            placeholder="Any special instructions for your order..."
+          ></textarea>
+        </div>
+        <div class="button-area">
+          <button id="checkout"><span>Checkout</span></button>
+        </div>
+      </aside>
+    </div>
+    <footer>
+      <div class="footer-text">
+        <small>&copy; 2021&nbsp;&nbsp;J'MUGS BISTRO</small>
+      </div>
+      <div class="footer-text">
+        <small
+          >Created by
+          <a
+            href="https://www.facebook.com/Jan5432"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            >Jan Rodson Burgos</a
+          ></small
+        >
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/menu-list.js"></script>
+    <script src="../js/menu-app.js"></script>
+    <script src="../js/add-to-cart.js"></script>
+  </body>
+</html>

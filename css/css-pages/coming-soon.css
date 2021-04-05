@@ -1,0 +1,26 @@
+main {
+  min-height: calc(100vh - 70px - 45px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: Lobster, "Times New Roman", serif;
+  text-transform: capitalize;
+  color: #3f2000;
+  text-shadow: #fcc201 0 0 10px;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  p {
+    font-size: 6rem;
+  }
+}
