@@ -141,7 +141,6 @@ input[type="submit"]:active {
     width: 100%;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
   }
 
   section {
@@ -149,7 +148,6 @@ input[type="submit"]:active {
     width: 100%;
     display: flex;
     align-items: center;
-    scroll-snap-align: center;
     border-bottom: 1px solid var(--color-primary);
   }
 
